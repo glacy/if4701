@@ -1,0 +1,57 @@
+version: 1
+project:
+  toc:
+    - file: programa-curso.md
+    - title: Semana 1
+      children:
+        - file: ./funciones_especiales/semana1-lectura.md
+        - file: ./funciones_especiales/semana1-practica.md
+        - file:
+            ./funciones_especiales/semana1_codigos.md
+    - file: glosario.md
+  title: MMFI2
+  github: https://github.com/glacy/thebe-binder-base
+  jupyter: binder
+  description: Material didáctico del IF4601
+  short_title: ""
+  keywords: []
+  authors:
+    - userId: 1eYInOrNXeRckmzXIMkyZNoAA7k2
+      nameParsed:
+        literal: Gerardo Lacy Mora
+        given: Gerardo Lacy
+        family: Mora
+      name: Gerardo Lacy Mora
+      corresponding: true
+      email: glacy@itcr.ac.cr
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - Licenciatura en Ingeniería Física, Escuela de Física
+      id: contributors-generated-uid-0
+  affiliations:
+    - id: ITCR
+      name: ITCR
+    - id: Licenciatura en Ingeniería Física, Escuela de Física
+      name: Licenciatura en Ingeniería Física, Escuela de Física
+  open_access: true
+  id: a7oQQocM3jAjAuctG9ns
+  remote: a7oQQocM3jAjAuctG9ns
+  references:
+   wiki: https://es.wikipedia.org/wiki/
+site:
+  title: MMFI2
+  options:
+    logo: site_logo.svg
+    logo_dark: site_logo_dark.svg
+  actions:
+    - title: tecDigital
+      url: https://tecdigital.tec.ac.cr/dotlrn
+    - title: Google Colab
+      url: https://colab.research.google.com/?authuser=0#create=true
+    - title: MyST
+      url: https://mystmd.org/guide/quickstart
+  domains:
+    - glacy-mmfi2.curve.space
+  template: book-theme
+
